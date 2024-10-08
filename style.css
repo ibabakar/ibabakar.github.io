@@ -1,0 +1,122 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:blueviolet;
+}
+
+header {
+  background-color:yellow;
+  padding: 20px 0;
+}
+#logo{text-align: left;
+  border-radius: 25%;
+  display: flex ;
+}
+
+
+#prez {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+#prez > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#prez > img:hover {
+  transform: scale(1.1);
+}
+
+#prez > h1 {
+  margin-top: 15px;
+  font-size: 2.5em;
+}
+
+#objectif {
+  text-align: center;
+  padding: 0 20px;
+  background-color: #add8e6;
+}
+
+#objectif > h2 {
+  font-size: 1.8em;
+  color:#dda0dd;
+}
+
+#objectif > p {
+  margin: 20px auto;
+  width: 70%;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.left-column, .right-column {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+  width: 25%;
+  background-color:black;
+  color: white;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.left-column:hover {
+  background-color: #3a4220;
+}
+
+.right-column {
+  width: 70%;
+  background-color:orange;
+  background-color: ;
+
+ h3 ; h4 {
+  background-color: #add8e6;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color-test:white;
+}
+
+h4 {
+  background-color: #dda0dd;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Animation for hovering effect */
+.left-column h3:hover, .right-column h4:hover {
+  background-color: #7fffd4;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
